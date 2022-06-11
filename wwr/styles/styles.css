@@ -24,7 +24,7 @@ nav {
     padding-top: 10px;
 }
 #hero-msg h4 {
-  color: rgb(116, 117, 202);
+  color: rgb(193, 244, 248);
 }
 #hero-img{
     width: 100%;
@@ -48,7 +48,7 @@ nav {
   width: 100%;
 }
 footer {
-  background-color: #333197;
+  background-color: #84e9c2;
   padding: 25px 50px;
   margin-top: 200px; 
   display: flex;
@@ -136,7 +136,7 @@ main section img {
     }
     .home-title {
         font-size: 25px;
-        color: #4ca7d1;
+        color: #9dd6f0;
     }
     .rivers-card, .camping-card, .rapids-card { 
         margin: 50px auto;
