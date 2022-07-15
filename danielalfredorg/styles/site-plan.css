@@ -92,7 +92,51 @@ p {
 }
 .accent2{
   background-color: var(--accent2-color);
+  .card-img, .family-background {
+    width: 100;
+  }
+/* .join has more styling below */ 
+
+.button-box {
+  text-align: center;
 }
+
+.card-img, .family-background {
+  width: 75%;
+}
+
+
+.card-img {
+  border: 10px solid #DDD92A;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+
+.card-img:hover {
+  opacity: .6;
+  transform: scale(1.1);
+}
+
+.home-title {
+  color: #ffffff;
+  font-family: 'Comic Neue', cursive, 'Brush Scipt MT';
+  font-size: 2em;
+  margin-top: 10px;
+}
+
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+
+.logo {
+  width: 60px;
+  padding-top: 5px;
+  justify-self: center;
+  align-self: center;
+}
+        
+
 
 p.colored {
   background-color: var(--paragraph-background-color);
